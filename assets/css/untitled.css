@@ -1,0 +1,63 @@
+.bg-secondary {
+  background-color: #264653 !important;
+}
+
+.bg-primary {
+  background-color: #e76f51 !important;
+}
+
+a:focus, a:hover, a:active {
+  color: #e9c46a;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  transition: all ease .5s;
+  opacity: 0;
+  background-color: #e9c46a;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 0.9;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #e9c46a;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #18bc9c;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #e9c46a;
+  }
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #cdad5f;
+  border-color: #e9c46a;
+}
+
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: #46c9b0;
+  border-color: #2fc3a6;
+}
+
+.btn-primary {
+  background-color: #e9c46a;
+  border-color: #e9c46a;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #264653;
+  color: #fff;
+}
+
